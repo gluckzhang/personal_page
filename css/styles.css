@@ -45,3 +45,9 @@ section li {
 		display: block;
 	}
 }
+
+@media print, screen and (max-width: 540px) {
+	.fit-for-years {
+		margin-top: 25px;
+	}
+}
