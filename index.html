@@ -17,7 +17,7 @@
     <header>
         <div style="max-width: 600px; margin: auto;">
             <img src="images/avatar.jpeg" alt="">
-            <h1>Long Zhang (张龙)</h1>
+            <h1>Long Zhang</h1>
             <p>Infrastructure Lead at Firstset <br> Ph.D. in Software Reliability and Chaos Engineering</p>
         </div>
     </header>
@@ -76,13 +76,15 @@
             <h2 id="experience">Experience</h2>
             <p>Infrastructure Lead at <a href="https://www.firstset.xyz/" target="_blank">Firstset</a><span class="years">Since 2025.02</span></p>
             <ul class="fit-for-years">
-                <li>Infrastructure orchestration, observability, and automation.</li>
-                <li>Blockchain system reliability research.</li>
+                <li>Led infrastructure automation for a production validator fleet, using Terraform and Ansible to standardize provisioning, configuration, and zero-downtime upgrades across 15+ services.</li>
+                <li>Designed the observability and CI/CD platform around Prometheus, Grafana, Loki, and self-hosted runners.</li>
+                <li>Built automation and security tooling, including an LLM-powered incident-response agent that triages alerts, escalates to PagerDuty, and runs guided runbooks.</li>
             </ul>
             <p>Senior Site Reliability Engineer at <a href="https://www.electrolux.com/about-us" target="_blank">Electrolux</a><span class="years">2022.10 ~ 2025.02</span></p>
             <ul class="fit-for-years">
-                <li>Infrastructure orchestration, observability, and cost engineering</li>
-                <li>IDP design and development for supporting the full life cycle of software development.</li>
+                <li>Managed Kubernetes clusters on AWS for Electrolux's global IoT backend across multiple regions — provisioning, auto-scaling, and monitoring.</li>
+                <li>Orchestrated infrastructure with Terraform (primarily AWS, plus services on Azure and GCP) and built an Internal Developer Platform supporting the full software development life cycle.</li>
+                <li>Drove observability, alerting, and cost engineering across the platform, improving fault tolerance and reliability.</li>
             </ul>
             <p>Manager of University Relations at <a href="https://www.tencent.com" target="_blank">Tencent</a><span class="years">2015.07 ~ 2017.11</span></p>
             <ul class="fit-for-years">
@@ -96,6 +98,12 @@
                 <li>Participated in management of university-enterprise cooperation, personnel training and the related projects.</li>
                 <li>Participated in the product design and development of the DJT and Tpai students' community.</li>
             </ul>
+
+            <h2 id="opensource">Open Source</h2>
+            <p><a href="https://github.com/electrolux-oss/infrakitchen" target="_blank">InfraKitchen</a> — an Internal Developer Platform (IDP) supporting the full software development life cycle; core contributor to its internal version at Electrolux before it was open-sourced.</p>
+            <p><a href="https://github.com/electrolux-oss" target="_blank">InfraWallet &amp; Cloud Cost Exporters</a> — a Backstage plugin for multi-cloud cost aggregation and a set of Prometheus exporters that expose cloud cost as standard metrics; core contributor.</p>
+            <p><a href="https://github.com/Firstset" target="_blank">Tenderduty &amp; fogo-community-ansible</a> — monitoring for Tendermint chains and an Ansible collection for automated FOGO validator deployment; core contributor.</p>
+            <p><a href="https://github.com/KTH/royal-chaos" target="_blank">RoyalChaos</a> — a mono-repo of the chaos engineering systems built during my Ph.D. at KTH; core contributor.</p>
 
             <h2 id="contact">Contact</h2>
             <p>Email: gluckzhang[at]gmail.com</p>
